@@ -627,8 +627,8 @@ progress {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 @media (min-width: 576px) {
@@ -643,12 +643,12 @@ progress {
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: 1200px;
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 1400px;
   }
 }
 @media (min-width: 1400px) {
@@ -3009,7 +3009,8 @@ textarea.form-control-lg {
   border-color: #565e64;
   box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
 }
-.btn-check:checked + .btn-secondary, .btn-check:active + .btn-secondary, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
+.btn-check:checked + .btn-secondary, .btn-check:
+ + .btn-secondary, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
   color: #fff;
   background-color: #565e64;
   border-color: #51585e;
@@ -3916,7 +3917,7 @@ textarea.form-control-lg {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #FFFFFF;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -4017,7 +4018,7 @@ textarea.form-control-lg {
   align-items: center;
 }
 
-.navbar-toggler {
+avbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
@@ -4040,7 +4041,7 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem;
 }
 
-.navbar-toggler-icon {
+.navbar-toggler-navbar-toggler-icon {
   display: inline-block;
   width: 1.5em;
   height: 1.5em;
@@ -4373,7 +4374,7 @@ textarea.form-control-lg {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: white;
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
@@ -4389,7 +4390,7 @@ textarea.form-control-lg {
 }
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: #FFFFFF;
 }
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.55);
@@ -7286,7 +7287,7 @@ textarea.form-control-lg {
 }
 
 .me-auto {
-  margin-right: auto !important;
+  margin-right: 10px !important;
 }
 
 .mb-0 {

@@ -1,36 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=divice-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Genshin Impact</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link href="https://fonts.googleapis.com/css2?family=Carattere&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
 <header>
-	<nav id="header-nav" class="navbar navbar-default">
-		<div class="container">
-			<div class="navbar-header">
-				<a href="index.html" class="float-left visible-md visible-lg">
-					<div id="logo-img" alt="Logo Image"></div>
-				</a>
-				<div class="navbar-brand">
-					<a href="index.html"><h1>Our Region:</h1></a>
-					<p>
-						<img src="image/primogen.png" alt="Eurasia">
-						<span>EURASIA</span>
-					</p>
-				</div>
-			</div>
-			
-		</div>
-	</nav>
+<nav id="header-nav" class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid" >
+    <a href="index.html" class="navbar-brand float-left visible-md visible-lg">
+    	<div id="logo-img" alt="Logo Image"></div>
+    	<div class="navbar-brand float-start">
+    		<a href="index.html"><h1>Our Region:</h1></a>
+    		<p>
+				<img src="image/primogen.png" alt="Eurasia">
+				<span>EURASIA</span>
+			</p>
+    	</div>	
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul id="nav-list" class="navbar-nav me-auto mb-2 mb-lg-0 float-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"><img src="image/character2.png" alt="Characters"><br>Characters</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"><img src="image/info3.png" alt="Info"><br>About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">
+            <img src="image/cup2.png" alt="Cup"><br>Awards</a>
+        </li>
+        <li id="phone">
+          <a href="tel:410-602-5008" class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">410-602-5008</a><div class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"> Support</div>
+        </li>    
+      </ul>
+  
+    </div>
+  </div>
+</nav>
 </header>
-<script src="js/jquery-3.6.0.mim.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
 </body>
