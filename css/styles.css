@@ -161,7 +161,7 @@ a.btn {
   color: #fff;
   opacity: .8;
 }
-@media (max-width: 565px) {
+@media (max-width: 575.98px) {
    #characters-tile, #events-tile {
     width: 444px;
     margin: 0 auto 15px;
@@ -176,6 +176,23 @@ a.btn {
     .panel-footer section hr {
     width: 50%;
     margin: auto;
+  }
+  .col-xs-6 {
+    position: relative;
+    min-height: 1px;
+    padding-right: auto;
+    padding-left: auto;
+    float: left;
+    width: 100%;
+  }
+  .menu-item-photo {
+    margin-right: auto !important;
+  }
+    .menu-item-tile .menu-item-price {
+    text-align: center !important;
+  }
+    .menu-item-description {
+    text-align: center;;
   }
 }
 .panel-footer {
@@ -208,4 +225,79 @@ a.btn {
 div.navbar-brand {
     display: table-cell;
     vertical-align: middle
+}
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#charecters-categories-title + div {
+  margin-bottom: 50px;
+}
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #454a68;
+  text-align: center;
+}
+#pyro-categories-title + div {
+  margin-bottom: 50px;
+}
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
 }
